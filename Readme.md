@@ -6,11 +6,7 @@ This frontend is designed to serve static content using **NGINX** and interact w
 
 ---
 
-## 🌐 Live Preview
 
-Visit the live site here: [www.manupanand.com](https://www.manupanand.com/)
-
----
 
 ## 🧰 Tech Stack
 
