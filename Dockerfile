@@ -7,6 +7,6 @@ RUN     rm -rf /usr/share/nginx/html/*
 COPY    /static/  /usr/share/nginx/html/
 COPY    nginx.conf /opt/nginx.conf 
 COPY    run.sh  / 
-ENTRYPOINT [ "bash","run.sh" ]
+ENTRYPOINT [ "bash","./run.sh" ]
 
 
