@@ -5,7 +5,7 @@ RUN     microdnf module disable nginx  -y && \
         microdnf install  -y  nginx gettext 
 RUN     rm -rf /usr/share/nginx/html/*
 COPY    /static/  /usr/share/nginx/html/
-# COPY    nginx.conf /opt/nginx.conf 
+COPY    nginx.conf /opt/nginx.conf 
 EXPOSE 80
 COPY    run.sh  / 
 ENTRYPOINT [ "bash","./run.sh" ]

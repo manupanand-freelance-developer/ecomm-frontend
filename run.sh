@@ -1,5 +1,5 @@
 #!/bin/bash
-# to make sure that environment variables are present before running image
+#to make sure that environment variables are present before running image
 
 
 if [ -z "${CATALOGUE_HOST}" ]; then
