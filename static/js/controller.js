@@ -67,7 +67,7 @@
     robotshop.controller('shopform', function($scope, $http, $location, currentUser) {
         $scope.data = {};
 
-        $scope.data.uniqueid = 'foo';
+        $scope.data.uniqueid = '';
         $scope.data.categories = [];
         $scope.data.products = {};
         $scope.data.searchText = '';

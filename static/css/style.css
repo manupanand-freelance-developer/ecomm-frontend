@@ -2,10 +2,12 @@
     font-family: sans-serif;
 }
 
-body {
-    background: linear-gradient(180deg, #0c1415, #16363e);
-    color: cyan;
-    height: 1000px;
+html, body {
+  height: 135%;
+  margin: 0;
+  background: linear-gradient(180deg, #000000, #a010e2);
+  color: cyan;
+ /* min-height: 100vh; /* ensures at least full viewport height */
 }
 
 h1 {
@@ -110,6 +112,11 @@ a.product:hover {
 
 .footer {
     font-size: 8pt;
+    display: flex;
+  justify-content: center;
+  padding-top: 35px;
+  /* Optional: to center vertically if needed */
+  /* align-items: center; */
 }
 
 /* product details */
@@ -197,10 +204,47 @@ a.cont:hover {
 }
 
 /* splash */
-div.splash {
+/* div.splash {
     background-image: url("/media/graph.png");
     background-repeat: no-repeat;
     padding: 5px;
     margin: 0px;
+} */
+ div.splash {
+    background-color: black;
+    padding: 5px;
+    margin: 0;
+    border-radius: 5px;
 }
 
+
+.image-container {
+  position: relative;
+  width: 500px; /* match image width */
+  margin: 0 auto; /* center container if needed */
+}
+
+.image-container h3 {
+ position: static; /* or just remove position */
+  margin-bottom: 10px; /* space between h3 and image */
+  color: rgb(23, 197, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 10px;
+  text-align: center; /* optional, center text */
+  border-radius: 5px;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+#stan img {
+  /* background-color: transparent; */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin-top: 100px; /* space above image without affecting border-radius */
+}

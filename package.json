@@ -1,0 +1,15 @@
+{
+  "name": "ecomm-frontend",
+  "version": "1.0.0",
+  "description": "Welcome to **Robot Shop** – a simple, microservices-based e-commerce demo application where you can browse and explore all kinds of robots!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"live-server ./static"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}

@@ -1,2 +1,5 @@
 Readme.md
 Jenkinsfile
+node_modules
+package.json
+package-lock.json 
